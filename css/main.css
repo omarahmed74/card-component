@@ -1,0 +1,75 @@
+body , html {
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.col-md-4 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+.card-1 {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    border-top-left-radius: 12px;
+}
+.card-2 {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 0px;
+    border-radius: 0;
+}
+.card-3 {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    border-top-right-radius: 12px;
+}
+
+.card img {
+    width: 30%;
+    margin: 20px;
+}
+
+.card .card-body .card-title {
+    padding: 20px 0px;
+}
+
+.card .card-body a {
+    margin: 25px 0px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+
+@media (max-width: 750px) {
+    .card {
+        margin: auto;
+    }
+
+    .card-1 {
+        border-radius: 0;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+    .card-3 {
+        border-radius: 0;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+
+    body , html {
+        margin: 20px 0px;
+        height: auto;
+        overflow-y: auto;
+        
+    }
+
+}
